@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact — COCO Creative Studio</title>
+  <meta name="description" content="Get in touch with COCO Creative Studio. Let's turn your creative ideas into meaningful experiences." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/base.css" />
+</head>
+<body>
+
+<div class="blueprint-bar">
+  <div class="container">
+    <span class="live">◆ COCO STUDIO</span>
+    <span>Creative Spaces. Bold Ideas.</span>
+    <span class="spacer"></span>
+    <a href="contact.html">Let's Create Together →</a>
+  </div>
+</div>
+
+<header class="sitehead">
+  <div class="container">
+    <a href="index.html" class="mark">
+      <span class="glyph">C</span>COCO
+    </a>
+
+    <nav id="mainnav">
+      <a href="index.html">Home</a>
+      <a href="project.html">Projects</a>
+      <a href="service.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="cta">Start a Project</a>
+
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+
+<!-- PAGE HEAD -->
+<section class="page-head">
+  <div class="container">
+    <span class="crumb"><a href="index.html">Home</a> / Contact</span>
+    <h1>Let's start <span>a conversation.</span></h1>
+    <p>Have an idea in mind? Tell us what you're imagining, and let's explore the possibilities together.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- CONTACT FORM -->
+      <div>
+        <span class="kicker">GET IN TOUCH</span>
+        <h2 style="font-size:2rem;margin-bottom:1.5rem">Tell us about your idea.</h2>
+
+        <form id="contactform" novalidate>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your name" />
+              <span class="error" id="err-name"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" />
+              <span class="error" id="err-email"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="project_type">What are you interested in? *</label>
+              <select id="project_type" name="project_type" required>
+                <option value="">Select a service...</option>
+                <option value="creative-direction">Creative Direction</option>
+                <option value="interior-design">Interior Design</option>
+                <option value="spatial-design">Spatial Design</option>
+                <option value="brand-identity">Brand Identity</option>
+                <option value="digital-design">Digital Design</option>
+                <option value="3d-visualization">3D Visualization</option>
+                <option value="other">Something Else</option>
+              </select>
+              <span class="error" id="err-project_type"></span>
+            </div>
+
+            <div class="field">
+              <label for="timeline">Where are you in the process?</label>
+              <select id="timeline" name="timeline">
+                <option value="">Select an option...</option>
+                <option value="exploring">Just exploring ideas</option>
+                <option value="planning">Planning a project</option>
+                <option value="ready">Ready to discuss a concept</option>
+                <option value="other">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number (Optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" />
+          </div>
+
+          <div class="field" style="margin-top:1rem">
+            <label for="message">Tell us about your idea *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Share your thoughts, inspiration, goals, or anything you'd like us to know..."></textarea>
+            <span class="error" id="err-message"></span>
+          </div>
+
+          <div class="field" style="margin-top:1rem">
+            <button type="submit" class="btn-primary" style="width:100%">
+              Send Message →
+            </button>
+          </div>
+
+          <div id="form-success" style="display:none;padding:1rem;margin-top:1rem;background:var(--blueprint);color:#fff;font-family:var(--font-mono);font-size:.85rem;border:1px solid var(--blueprint)">
+            Thank you! This form is currently a preview and is not connected to an inbox yet.
+          </div>
+
+        </form>
+      </div>
+
+      <!-- CONTACT INFORMATION -->
+      <div>
+
+        <div class="service-card reveal">
+          <span class="eyebrow">01 / BEFORE YOU REACH OUT</span>
+          <h3>Every idea matters.</h3>
+          <p style="margin-top:.5rem">
+            Whether you have a clear vision or just the beginning of an idea,
+            this is the place to start.
+          </p>
+        </div>
+
+        <div class="service-card reveal d1" style="margin-top:1rem">
+          <span class="eyebrow">02 / WHAT TO SHARE</span>
+          <h3>Give us a little context.</h3>
+          <p style="margin-top:.5rem">
+            Tell us about your goals, preferred style, inspiration,
+            and the kind of experience you want to create.
+          </p>
+        </div>
+
+        <div class="service-card reveal d2" style="margin-top:1rem;border-left:3px solid var(--blueprint)">
+          <span class="eyebrow">03 / THE COCO APPROACH</span>
+          <h3>Thoughtful by design.</h3>
+          <p style="margin-top:.5rem">
+            We believe good design starts with curiosity,
+            creative thinking, and attention to detail.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container">
+    <div>
+      <span class="kicker">STILL EXPLORING?</span>
+      <h2>Find your <span>inspiration.</span></h2>
+      <p>Discover our creative direction, design philosophy, and conceptual projects.</p>
+    </div>
+
+    <div class="actions">
+      <a href="project.html" class="btn-primary">Explore Projects →</a>
+      <a href="service.html" class="btn-ghost">Our Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div>
+        <div class="brand">COCO</div>
+        <p>Creative spaces, thoughtful ideas, and meaningful visual experiences.</p>
+      </div>
+
+      <div>
+        <h4>Our Expertise</h4>
+        <a href="service.html">Interior Design</a><br />
+        <a href="service.html">Spatial Design</a><br />
+        <a href="service.html">Brand Identity</a><br />
+        <a href="service.html">Digital Design</a>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About</a><br />
+        <a href="project.html">Projects</a><br />
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h4>Let's Connect</h4>
+        <p>Have an idea? We'd love to hear about it.</p>
+        <a href="contact.html">Start a Conversation →</a>
+      </div>
+
+    </div>
+
+    <div class="base">
+      <span>© <span data-year></span> COCO Studio</span>
+      <span>Creative Spaces. Bold Ideas.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
